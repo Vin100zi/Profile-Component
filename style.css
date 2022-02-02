@@ -10,7 +10,7 @@ body, html {
 }
 
 main {
-    margin: 10% 25%;
+    margin: 5% 25%;
 }
 
 nav {
@@ -28,40 +28,32 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 0 50px 15px 50px;
+    margin-top: 3%;
 }
 
 .project {
     background-color: #046313;
-    padding: 0 60px 0 20px;
+    padding: 0 45px 25px 20px;
     border-radius: 5%;
 }
 
 .star {
     background-color: #044A7D;
-    padding: 0 60px 0 20px;
+    padding: 0 45px 25px 20px;
     border-radius: 5%;
 }
 
 .follow {
     background-color: #725200;
-    padding: 0 60px 0 20px;
+    padding: 0 45px 25px 20px;
     border-radius: 5%;
 }
 
-
-
-
-
-  
-/* main {
-    background-color: #fff;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
+article p {
+    margin: 10px 0 0 0;
 }
 
-.main > div {
-    width: 35%;
-
-} */
+article h2 {
+    margin: 0;
+}
