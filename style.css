@@ -22,11 +22,11 @@ nav {
     height: 15vh;
     justify-content: space-around;
     align-items: center;
+    padding: 0 10%;
 }
 .profile {
     display: flex;
     width: 40%;
-    margin-left: 6%;
 }
 
 #photo {
@@ -38,6 +38,22 @@ nav {
     padding-left: 10px;
 }
 
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #0F0E0E;
+    border: 1px transparent;
+    border-radius: 5px;
+    transition: 225ms background linear;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #B7B7B7;
+    color: #0F0E0E;
+    border-radius: 5px;
+}
 
 .topics {
     display: flex;
