@@ -19,10 +19,25 @@ nav {
 
 .container {
     display: flex;
-    height: 40vh;
+    height: 15vh;
     justify-content: space-around;
     align-items: center;
 }
+.profile {
+    display: flex;
+    width: 40%;
+    margin-left: 6%;
+}
+
+#photo {
+    width: 25%;
+    border-radius: 50px;
+}
+
+.profile h1 {
+    padding-left: 10px;
+}
+
 
 .topics {
     display: flex;
