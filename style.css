@@ -31,7 +31,7 @@ nav {
 
 .profile {
     display: flex;
-    width: 40%;
+    align-items: center;
     font-size: 12px;
 }
 
@@ -43,6 +43,15 @@ nav {
 
 .profile h1 {
     padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.profile p {
+    padding-left: 10px;
+    margin-top: 0;
+}
+.profile img {
+    max-width: 102px;
 }
 
 button {
