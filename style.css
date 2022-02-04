@@ -2,12 +2,14 @@ body, html {
     margin: 0;
     padding: 0;
     background-color: #0C0B0B;
+    font-family: Rubik, sans-serif;
+    
 }
 
 * {
     box-sizing: border-box;
     color: #B7B7B7;
-    font-family: Rubik, sans-serif;
+    
 }
 
 main {
@@ -16,22 +18,26 @@ main {
 
 nav {
     background-color: #0F0E0E;
+    margin-top: 15%;
 }
 
 .container {
     display: flex;
-    height: 15vh;
+    height: 25vh;
     justify-content: space-around;
     align-items: center;
     padding: 0 10%;
 }
+
 .profile {
     display: flex;
     width: 40%;
+    font-size: 12px;
 }
 
+
 #photo {
-    width: 25%;
+    width: 50%;
     border-radius: 50px;
 }
 
@@ -68,6 +74,11 @@ button:hover {
     background-color: #046313;
     padding: 0 45px 25px 20px;
     border-radius: 5%;
+    transition: 225ms;
+}
+
+.project:hover {
+    font-size: 24px;
 }
 
 .star {
@@ -76,11 +87,23 @@ button:hover {
     border-radius: 5%;
 }
 
+.star:hover {
+    font-size: 24px;
+    transition: 225ms;
+}
+
+
 .follow {
     background-color: #725200;
     padding: 0 45px 25px 20px;
     border-radius: 5%;
 }
+
+.follow:hover {
+    font-size: 24px;
+    transition: 225ms;
+}
+
 
 article p {
     margin: 10px 0 0 0;
